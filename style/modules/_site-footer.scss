@@ -1,0 +1,20 @@
+.site-footer{
+    box-shadow: $base-shadow inset;
+    position: fixed;
+    color: $jeppe-light;
+    background: $jeppe-black-3;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    .inner{
+        max-width:$page-width-max;
+        margin: auto;
+        padding: $base-margin/2;
+        
+        @media only screen and(min-width:480px){
+            padding: $base-margin;   
+        }
+    }
+    
+}

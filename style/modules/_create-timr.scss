@@ -1,0 +1,17 @@
+.create-timr{
+    max-width: 480px;
+    margin:20px auto;
+    padding:0px 40px 40px;
+    border-radius: 10px;
+    box-shadow: $base-shadow;
+    border: 10px solid $jeppe-light-3;
+    
+    .create-timr-title{
+        font-size:125%;
+        @media only screen and(min-width:480px){
+            font-size:150%;
+        }
+        
+    }
+    
+}

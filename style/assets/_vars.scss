@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+// FONT
+$base-font: 'Open Sans', sans-serif;
+$base-font-weight: 400;
+$base-font-weight-2: 600;
+$base-font-weight-3: 700;
+$text-margin:.7em;
+
+$base-font-size: 15px;
+$base-font-size-480: 15px;
+$base-font-size-640: 16px;
+$base-font-size-960: 16px;
+$base-line-height:1.5;
+
+
+// Højde bredde basic
+$base-margin:20px;
+$page-width-max:1280px;
+$read-width-max:640px;
+
+
+
+// Farver
+$jeppe-black: #222222;
+$jeppe-black-2: #000000;
+$jeppe-black-3: #454d57;
+
+$jeppe-light: #fcfcfc;
+$jeppe-light-2: #f0f0f0;
+$jeppe-light-3: #e5e5e5;
+$jeppe-white: #ffffff;
+
+$jeppe-color-red: #ea492e;
+$jeppe-color-yellow: #c5cb35;
+$jeppe-color-green: #58b47b;
+$jeppe-color-blue: #2188e0;
+
+
+// Anchors
+
+$anchor-hover-color:$jeppe-color-red;
+$anchor-current-color:$anchor-hover-color;
+
+
+// Skygge
+
+$base-shadow: 1px 1px 2px 0px rgba($jeppe-black,.2) ;

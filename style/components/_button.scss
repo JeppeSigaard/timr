@@ -1,0 +1,27 @@
+a.button, input[type="submit"]{
+    
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: $base-margin/1.5 $base-margin;
+    color: white;
+    background-color: $jeppe-color-green;
+    transition: background-color 150ms;
+    font-size: inherit;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: normal;
+    font-family: inherit;
+    box-shadow: $base-shadow;
+    
+    &:hover{
+        background-color: darken($jeppe-color-green,5);
+    }
+    
+    &.block {
+        display: block;
+        width: 100%;
+    }
+    
+}
