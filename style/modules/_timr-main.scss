@@ -1,0 +1,10 @@
+.editor-open .timr-main{
+    margin-left: $editor-width-large;
+}
+
+.timr-main{
+    position: relative;
+    height:100vh;
+    margin-left: 0;
+    transition: margin-left 200ms;
+}

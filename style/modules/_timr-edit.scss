@@ -1,0 +1,57 @@
+$editor-width: 240px;
+$editor-width-large: 320px;
+
+.editor-open .timr-edit{
+    left:0;
+}
+
+.timr-edit{
+    position: fixed;
+    top:0;
+    left: -$editor-width-large;
+    transition: left 200ms;
+    width: $editor-width-large;
+    
+    background-color: $jeppe-light-2;
+    height: 100vh;
+    z-index: 2000;
+    overflow: scroll;
+    
+    .inner{
+        position:relative;
+        padding:$base-margin;
+    }
+}
+
+.editor-open .editor-close{
+    left:280px;
+}  
+.editor-close{
+    font-size:0;
+    position:fixed;
+    bottom:10px;
+    left:0px;
+    transition:left 200ms;
+    height:25px;
+    width:25px;
+    line-height:22px;
+    text-align: center;
+    display: block;
+    box-sizing: content-box;
+    border-radius: 0px;
+    border: 2px solid #999;
+    
+    &:before{
+        font-size:20px;
+        content: "\2039";
+        color: #999;
+    }
+}
+
+a.editor-show {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: $jeppe-color-green;
+    font-size: 12px;
+}

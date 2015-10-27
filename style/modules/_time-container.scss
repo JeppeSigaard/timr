@@ -69,3 +69,43 @@
     }
 
 }
+
+
+
+.editor-open .time-container{
+    
+    
+    width:260px;
+    @media only screen and(min-width:960px){
+        width:480px;
+    }
+    
+    @media only screen and(min-width:1098px){
+        width:640px;
+    }
+    
+    
+    .time-box>div{ 
+        width:50%;
+        @media only screen and(min-width:960px){
+            width:25%;
+        } 
+    }
+    
+    .time-t{
+        
+        font-size: 50px;
+        @media only screen and(min-width:1098px){
+            font-size: 70px;
+        }
+    }
+    
+    .time-pretext h1{
+        font-size:125%;
+        @media only screen and(min-width:1098px){
+            font-size: 175%;
+        }
+    }
+
+    
+}

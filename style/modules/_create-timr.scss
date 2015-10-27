@@ -1,10 +1,15 @@
+.create-timr-section{
+    background-color: $jeppe-light-2;
+}
+
 .create-timr{
     max-width: 480px;
     margin:20px auto;
-    padding:0px 40px 40px;
+    padding:10px 40px 40px;
     border-radius: 10px;
     box-shadow: $base-shadow;
     border: 10px solid $jeppe-light-3;
+    background-color: white;
     
     .create-timr-title{
         font-size:125%;

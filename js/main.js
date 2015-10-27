@@ -5,3 +5,19 @@
 // @koala-append 'components/form.js';
 
 // @koala-append 'modules/timr.js';
+
+$(function(){
+    
+    setTimeout(function(){
+        
+        $('body').addClass('editor-open');
+        
+    },1500);
+    
+    $('.editor-toggle').click(function(e){
+        e.preventDefault();
+        $('body').toggleClass('editor-open');
+        
+    });
+    
+});

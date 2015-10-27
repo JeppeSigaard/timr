@@ -3,7 +3,7 @@
     position: fixed;
     color: $jeppe-light;
     background: $jeppe-black-3;
-    bottom:0;
+    bottom:-60px;
     left:0;
     right:0;
     
@@ -15,6 +15,10 @@
         @media only screen and(min-width:480px){
             padding: $base-margin;   
         }
+    }
+    
+    &.show{
+        bottom:0;
     }
     
 }
